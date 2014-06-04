@@ -65,7 +65,7 @@ app.controller("LoginController", function($scope, $location, AuthenticationServ
             saveToPhotoAlbum: true
         });
         
-      $scope.onSuccess=function(imageData) {
+      function onSuccess(imageData) {
 alert ("something");
         var userPhoto = document.getElementById('userPhoto');
  
